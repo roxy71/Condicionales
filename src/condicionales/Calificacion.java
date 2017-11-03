@@ -22,7 +22,8 @@ public class Calificacion
          nota3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el nota3"));
          
          promedio=(nota1 + nota2 + nota3) /3;
-         
+           JOptionPane.showMessageDialog(null, "El promedio es; "+promedio);
+           
          if (promedio>=4)//Aqui va una condicion
          
          {
